@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Song Preview Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <main class="home-page">  <!-- Acts like a container for screen -->
+    <div class="inner-container">
+      <img src="./assets/images/artist.jpeg" alt="artist-pic" class="artist-img">
+        <p class="song-name">Summertime Sadness</p>
+      <div class="flex-container-for-artist-name-and-duration-of-the-song">
+      <p class="artist-name">Lana Del Rey</p>
+      <p class="duration"><i class="fa-solid fa-clock clock-pic"></i>4:04</p>
+    </div>
+    <hr>
+    <div class="flex-container-for-user-info">
+      <img src="./assets/images/profile-picture.png" alt="Frost" class="profile-picture">
+      <p>Frost</p>
+      <span>
+        <ul>
+          <li><i class="fa-solid fa-circle list-bullet-points"></i>2016</li>
+          <li><i class="fa-solid fa-circle list-bullet-points"></i>10 songs, 42 min</li>
+        </ul>
+  
+      </span>
+      
+    </div>
+
+
+
+  </div>
+
+
+  </main>
+
+  <script type="module" src="/src/global-scripts/main.js"></script>
+  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+</body>
+
+</html>
